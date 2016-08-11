@@ -1,0 +1,54 @@
+#header {
+	text-align: center;
+	padding-top: 156px;
+}
+
+#question_wrapper {
+
+	text-align: center;
+	font-size: 35px;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+#answer_holder {
+	font-size: 25px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    line-height: 35px;
+    text-align: left;
+    padding-right: 725px;
+}
+
+.meter1 {
+	height: 215px;
+	width: 310px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#feedback {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.progressMeter {
+	white-space: nowrap;
+}
+#q1, #q2, #q3, #q4, #q5 {
+	width: 100px;
+	height: 80px;
+}
+
+.score_sigil {
+	display: none;
+}
+
+#retry_button {
+	display: none;
+}
