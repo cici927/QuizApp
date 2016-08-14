@@ -47,9 +47,11 @@ $(document).ready(function() {
 	});
 
 	$("#question_wrapper").on("click", "#retry_button", function () {
-        numberCorrect = 0;
+        scoreCard = 0;
         currentQuestion = 0;
         $(".score_sigil").css("display", "none");
+        $("#feedback").show();
+        $("#feedback").text("Good luck!");
         
         var newQuestion = '<span class="question">'+questions[currentQuestion].question+'</span><br><div id="answer_holder"><input type="radio" name="option" class="option" value="0"><span class="answer">'+questions[currentQuestion].choices[0]+'</span><br><input type="radio" name="option" class="option" value="1"><span class="answer">'+questions[currentQuestion].choices[1]+'</span><br><input type="radio" name="option" class="option" value="2"><span class="answer">'+questions[currentQuestion].choices[2]+'</span><br><input type="radio" name="option" class="option" value="3"><span class="answer">'+questions[currentQuestion].choices[3]+'</span><br></div><div id="button_holder"><input type="button" id="submit" value="Submit Answer"></span><input type="button" id="retry_button" value="Try Again!"></div>';
         $("#question_wrapper").html(newQuestion);
@@ -93,12 +95,14 @@ $(document).ready(function() {
                 $("#answer_holder").html(finalScore);
                 $("#answer_holder").css("text-align", "center")
                 $(".questions").remove();
+                $("#feedback").hide();
             }
             else {
                 var finalScore = '<span id="final">Congratulations on finishing the quiz!  You correctly answered '+scoreCard+' questions.'
                 $("#answer_holder").html(finalScore);
                 $("#answer_holder").css("text-align", "center")
                 $(".questions").remove();
+                $("#feedback").hide();
             
             }
         }   

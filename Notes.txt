@@ -1,0 +1,55 @@
+Notes.txt
+--FUNCTIONS--
+
+
+
+//Page loads
+
+
+//Select Answer
+.on method with question has been selected
+  increment between 0 and 1, can you get the right content on the screen when user clicks button
+
+
+//New Game button 
+
+.on method to reset all values when user clicks on new game
+
+--QUESTIONS ON QUIZ--
+
+1) What was the nick name of the king that ruled before Robert Baratheon?
+  a. The Night King
+  b. The Mad King
+  c. King of the Dragons
+  d. The King of The North
+
+ 2) Who was Arya searching for in the House of Black and White?
+   a. J'acquen H'gar
+   b. Jon Snow
+   c. Ned Stark
+   d. Gendry 
+
+ 3) Complete this sentence: "The ____________ send their regards."
+   a. Starks
+   b. Men of Dorne
+   c. Kraken
+   d. Lannisters
+
+ 4) In season 2, Tyrion defeated Stannis Baratheon in the Battle of the Blackwater using what secret weapon?
+   a. Dragons
+   b. White Walkers
+   c. Wildfire
+   d. Ned Stark's sword
+
+ 5) What does Jon Snow "know"?
+   a. Who pushed Bran out of the window. 
+   b. Nothing.
+   c. The truth of who fathered Queen Cersei's children.
+   d. Where Arya is. 
+
+
+House Bolton
+http://vignette1.wikia.nocookie.net/gameofthrones/images/d/dd/House-Bolton-Main-Shield.PNG/revision/latest/scale-to-width-down/250?cb=20160312000641
+
+House targaryen
+https://img1.etsystatic.com/128/1/13243368/il_340x270.1054630535_fd7t.jpg
